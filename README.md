@@ -36,9 +36,7 @@ Bash
 npm install cheerio
 IMPORTANTE: Asegúrate de que tu carpeta de exportación de Apple esté en el escritorio:
 
-```bash
-Ruta esperada: ~/Desktop/AppleJournalEntries/Entries
-```
+`Ruta esperada: ~/Desktop/AppleJournalEntries/Entries`
 
 ## 📖 Cómo Usar
 
@@ -73,11 +71,14 @@ node extractor.js -o Abril2024 "2024-04"
 
 3. Modo Rápido (Solo Texto) ⚡️
 
-Usa la bandera -t o --text-only. Ideal si cambias algo en el código del Markdown y no quieres esperar a que se conviertan los videos de nuevo.
+Usa la bandera `-t` o `--text-only`. Ideal si cambias algo en el código del Markdown y no quieres esperar a que se conviertan los videos de nuevo.
 
-Bash
+```bash
 node extractor.js -o MiDiario -t all
-📂 Estructura del Resultado
+```
+
+## 📂 Estructura del Resultado
+
 El script generará una carpeta con el nombre que elijas:
 
 ```Plaintext
